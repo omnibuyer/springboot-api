@@ -5,8 +5,8 @@ jobs:
       # https://circleci.com/docs/2.0/circleci-images/#openjdk
       - image: circleci/openjdk:11.0.1-jdk
 
-    working_directory: ~/sample-springboot-api
-    
+    working_directory: /g/w/workspace3/circleci/springboot-api  #working_directory: ~/springboot-api
+
     steps:
       # git pull
       - checkout
